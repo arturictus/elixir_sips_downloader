@@ -4,7 +4,7 @@ You need to have a paid Subscription.
 
 ## Step 1:
 ```
-git clone git@bitbucket.org:arturictus/elixir_sips_downloader.git
+git clone git@github.com:arturictus/elixir_sips_downloader.git
 cd elixir_sips_downloader
 ```
 ## Step 2:
