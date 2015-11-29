@@ -1,0 +1,2 @@
+require File.expand_path('../elixir_sips', __dir__)
+ElixirSips.download
