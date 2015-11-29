@@ -1,0 +1,2 @@
+require '../elixir_sips'
+SipsDown.new.download

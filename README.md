@@ -1,17 +1,22 @@
-create your setting.yml file with this keys:
+## Step 1:
+```
+git clone git@bitbucket.org:arturictus/elixir_sips.git
+cd mechanize
+```
+## Step 2:
+create your _settings.yml_ file with this keys:
 ```YAML
 download_folder: 'path/to/your/folder'
 username: 'usename@name.com'
 password: 'my_password'
 ```
-run:
+
+## Step 3:
+Run the script
 ```
-git clone git@bitbucket.org:arturictus/elixir_sips.git
-cd mechanize
 irb
 ```
 ```ruby
 require './elixir_sips'
-auto = SipsDown.new
-down.download
+SipsDown.new.download
 ```
